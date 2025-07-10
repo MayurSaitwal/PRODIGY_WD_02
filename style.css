@@ -1,0 +1,109 @@
+.container img {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    filter: brightness(70%) blur(2px);
+}
+
+.item {
+    margin: 200px;
+    height: 300px;
+    width: 600px;
+    
+    position: absolute;
+    left: 300px;
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    box-shadow: 0 0 32px 0 rgba(33, 36, 73, 0.37);
+     background: rgba(0, 0, 0, 0.5);
+     border: 2px solid rgba(0, 255, 204, 0.4);
+    
+    
+    
+}
+
+.content {
+    
+    position: relative;
+    left: 110px;
+    bottom: 15px;
+    color: white;
+    
+}
+.container .item .content h1 {
+    font-size: 80px;
+    letter-spacing: 3px;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* 🌟 Add glow */
+    margin-top: 20px;
+}
+.time {
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 20px;
+    letter-spacing: 2px;
+    position: absolute;
+    text-shadow: 0 0 10px #232625; 
+    left: 0;
+    top: 115px;
+}
+button {
+    
+    font-size: 20px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    margin-top: 60px;
+    margin-left: 30px;
+}
+
+.start {
+     font-size: 18px;
+      background-color: #28a745;
+    padding: 10px 25px;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+
+}
+.start:hover {
+    background-color: #218838;
+    opacity: 0.7;
+}
+.stop {
+   font-size: 18px;
+    margin: 10px;
+    padding: 10px 25px;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    background-color: #dc3545;
+}
+.stop:hover {
+    background-color: #c82333;
+    opacity: 0.7;
+}
+
+.reset {
+    font-size: 18px;
+   margin: 10px;
+    padding: 10px 25px;
+    cursor: pointer;
+    border: none;
+    border-radius: 25px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+background-color: #ffc107; }
+.reset:hover {
+    background-color: #e0a800;
+    opacity: 0.7;
+}
+
+
